@@ -18,10 +18,16 @@ Thank You Page: Displays a confirmation message after a purchase, thanking the u
 
 Footer Component: Contains additional links and information about the site, contributing to a complete user experience.
 
+
+
 Functionality Explanation:
 
-Each section of the application is interconnected, allowing seamless navigation. The header provides a central access point, while the sidebar filters products. The product list and cards display the items dynamically, with pagination facilitating the exploration of larger inventories. The add to cart modal enhances interactivity, ensuring users receive immediate feedback on their actions. The thank you page finalizes the user journey, reinforcing customer satisfaction.
+Each section of the application is interconnected, allowing seamless navigation. The header provides a central access point, while the sidebar filters products. The product list and cards display the items dynamically, with pagination facilitating the exploration of larger inventories. The add-to-cart modal enhances interactivity, ensuring users receive immediate feedback on their actions. The thank you page finalizes the user journey, reinforcing customer satisfaction.
 
 Challenges Faced:
 
 Creating the challenges carousel and implementing the product list with pagination proved to be time-consuming. I spent considerable time watching tutorials and experimenting with different approaches before successfully developing these features. This process significantly improved my understanding of React and its state management, ultimately enhancing my development skills.
+
+
+Publish Link: https://e-commerce-listing-page-odp.vercel.app/
+
