@@ -52,7 +52,7 @@ function Header() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center pt-8 px-4">
+        <div className="flex justify-center items-center pt-8 px-2">
           <div className="relative w-full max-w-md flex items-center border-b-2 border-black">
             <FontAwesomeIcon
               icon={faSearch}
