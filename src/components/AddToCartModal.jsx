@@ -11,17 +11,14 @@ export default function AddToCartModal() {
 
   const handleAddToCart = () => {
     addToCart(selectedProduct);
-    // Confirm adding the product and navigate to thank-you page
 
     navigate("/thank-you", { state: { productName: selectedProduct.name } });
   };
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
-      {/* Overlay to blur the background */}
       <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
 
-      {/* Modal content */}
       <div className="relative bg-white p-6 rounded-lg shadow-lg z-10">
         <h2 className="text-lg font-bold">Add to Cart</h2>
         <p>{selectedProduct.name}</p>

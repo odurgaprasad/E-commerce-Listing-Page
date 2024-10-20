@@ -4,18 +4,17 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 export default function CarouselList() {
-  // Slick slider settings for responsiveness and autoplay
   const settings = {
-    dots: true, // Enable dots for navigation
-    infinite: true, // Loop the carousel
-    speed: 500, // Transition speed in milliseconds
-    slidesToShow: 5, // Show 3 cards side by side
-    slidesToScroll: 5, // Scroll 3 cards at a time
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 3000, // Time interval in milliseconds for autoplay (3 seconds)
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
-        breakpoint: 1024, // Large screens
+        breakpoint: 1024,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
@@ -46,7 +45,7 @@ export default function CarouselList() {
           {carouselData.map((plant) => (
             <div
               key={plant.id}
-              className="rounded-md shadow-sm p-2 mx-2 h-96 flex flex-col justify-around gap-6" // Same height and padding
+              className="rounded-md shadow-sm p-2 mx-2 h-96 flex flex-col justify-around gap-6"
             >
               <div className="flex justify-center items-center mb-4">
                 <img

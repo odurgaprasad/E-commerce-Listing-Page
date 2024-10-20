@@ -13,7 +13,6 @@ function App() {
     <CartProvider>
       <Router>
         <Header />
-        {/* Flex container to hold both sidebar and product list */}
         <div className="flex">
           <FilterSidebar className="w-1/4" />
           <div className="w-3/4">
