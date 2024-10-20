@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 export default function FilterSidebar() {
-  // State to handle the collapse/expand of each filter category
   const [openSections, setOpenSections] = useState({
     plantType: false,
     price: false,
@@ -16,7 +15,6 @@ export default function FilterSidebar() {
     LightEfficient: false,
   });
 
-  // Toggle the section visibility
   const toggleSection = (section) => {
     setOpenSections((prev) => ({
       ...prev,
@@ -31,7 +29,6 @@ export default function FilterSidebar() {
         <button className="text-sm text-gray-500">CLEAR ALL</button>
       </div>
 
-      {/* Filter: Type of Plants */}
       <div className="mb-4 border-b border-stone-800 p-4">
         <div
           className="flex justify-between items-center cursor-pointer"

@@ -12,7 +12,6 @@ function Footer() {
   return (
     <footer className="bg-[#f3f9f3] py-8 px-8">
       <div className="container mx-auto grid grid-cols-2 md:grid-cols-5 gap-8">
-        {/* Subscribe to Newsletter Section */}
         <div className="col-span-2 md:col-span-1">
           <h3 className="text-lg font-bold">SUBSCRIBE TO OUR NEWSLETTER</h3>
           <p className="text-sm text-gray-600 my-4">
@@ -31,7 +30,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* About Us Section */}
         <div>
           <h3 className="text-lg font-bold">ABOUT US</h3>
           <ul className="text-sm text-gray-600 mt-4 space-y-2">
@@ -42,7 +40,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Our Services Section */}
         <div>
           <h3 className="text-lg font-bold">OUR SERVICES</h3>
           <ul className="text-sm text-gray-600 mt-4 space-y-2">
@@ -54,7 +51,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Useful Links Section */}
         <div>
           <h3 className="text-lg font-bold">USEFUL LINKS</h3>
           <ul className="text-sm text-gray-600 mt-4 space-y-2">
@@ -67,7 +63,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Get in Touch Section */}
         <div>
           <h3 className="text-lg font-bold">GET IN TOUCH</h3>
           <p className="text-sm text-gray-600 mt-4">
@@ -81,7 +76,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Chaperone Section */}
       <div className="container mx-auto mt-8 text-center">
         <h3 className="text-lg font-bold border-b-2 border-purple-500 inline-block mb-2">
           CHAPERONE
@@ -93,7 +87,6 @@ function Footer() {
         </p>
       </div>
 
-      {/* Social Media Icons */}
       <div className="container mx-auto mt-8 text-center">
         <h4 className="text-sm font-bold">Follow us on</h4>
         <div className="flex justify-center gap-4 mt-4">
@@ -120,7 +113,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="container mx-auto mt-8 text-center border-t pt-4 text-sm text-gray-600">
         © 2023, chaperone.com All rights reserved.
       </div>

@@ -7,17 +7,14 @@ function NavigationLinks() {
   const [isToolsOpen, setIsToolsOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
 
-  // Toggle dropdowns for Tools
   function toggleToolsDropdown() {
     setIsToolsOpen((prevToggle) => !prevToggle);
   }
 
-  // Toggle dropdowns for Services
   function toggleServicesDropdown() {
     setIsServicesOpen((prevToggle) => !prevToggle);
   }
 
-  // Common styles for links
   let listClasses =
     "text-xl lg:text-2xl font-semibold text-gray-600 hover:text-orange-500 hover:underline";
 
@@ -31,7 +28,6 @@ function NavigationLinks() {
           <Link to="/PlantsAndPots">Plants & Pots</Link>
         </li>
 
-        {/* Tools Dropdown */}
         <li className="relative">
           <span
             onClick={toggleToolsDropdown}
@@ -65,7 +61,6 @@ function NavigationLinks() {
           )}
         </li>
 
-        {/* Our Services Dropdown */}
         <li className="relative">
           <span
             onClick={toggleServicesDropdown}
